@@ -92,3 +92,25 @@ window.alert("A soma dos valores é " + resultado5);
 // string() - em parenteses o que quero converter gera uma string
 
 // ().toString - parentese oque quero converter gera uma string
+
+
+
+// Usando String()
+let numero1 = 123;
+let texto1 = String(numero1);
+console.log("Usando String():", texto1, " - Tipo:", typeof texto1);
+
+// Usando toString()
+let numero2 = 456;
+let texto2 = numero2.toString();
+console.log("Usando toString():", texto2, " - Tipo:", typeof texto2);
+
+
+
+// usando document. wirite -  é um método do JavaScript que permite escrever diretamente no documento HTML durante o carregamento da página
+
+let nome55 = window.prompt("Qula é o seu nome?")
+document.writeln(`Olá, ${nome}! Seu nome tem ${nome.length} letras.`)
+document.writeln(`Seu nome em maiúsculo é ${nome.toUpperCase}`)
+
+//
